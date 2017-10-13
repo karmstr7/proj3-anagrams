@@ -42,7 +42,7 @@ class Vocab():
         Is word present in vocabulary list?
         Args:
            word: a string
-        Reurns: true if word occurs in the vocabularly list
+        Reruns: true if word occurs in the vocabulary list
         """
         low = 0
         high = len(self.words) - 1
