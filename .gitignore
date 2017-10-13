@@ -1,7 +1,8 @@
 # Project specific / mac specific
 .DS_Store
 credentials.ini
-
+minijax.html
+flask_minijax.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
