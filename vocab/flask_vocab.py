@@ -92,7 +92,7 @@ def check():
         matches.append(text)
         flask.session["matches"] = matches
         rslt['matches'] = matches
-    elif text in matches:   #
+    elif text in matches:   # Not reporting implicit hints. But checking for them will prevent crashes.
         pass
     elif not matched:
         pass
